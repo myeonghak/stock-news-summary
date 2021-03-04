@@ -6,14 +6,14 @@ import os
 
 
 # os.chdir('자신의 디렉토리 주소')
-os.chdir('/content/drive/MyDrive/Colab Notebooks/news_feeder')
+# os.chdir('/content/drive/MyDrive/Colab Notebooks/news_feeder')
 
 
 
 class news_crawler:
     
-    def __init__(self):
-        self.company_code_table = pd.read_csv('company_list.txt', dtype=str, sep='\t')
+    def __init__(self, table_path):
+        self.company_code_table = pd.read_csv(table_path, dtype=str, sep='\t')
     
     
     def crawler(self, company_code, num_article):
