@@ -1,7 +1,5 @@
 # 주식 종목 뉴스 요약 메일링
 
----
-
 
 <center><img src="/asset/title.png" align="center" alt="drawing" width="400"/></center>    
 
@@ -26,5 +24,5 @@ Gmail에 연동하는 방식과 코드에 대한 설명은 [제 블로그](https
 
 ---
 ## references
-https://www.youtube.com/watch?v=PtgnzgaURIM&list=LL&index=22
+https://www.youtube.com/watch?v=PtgnzgaURIM&list=LL&index=22  
 https://hengju.tistory.com/36
